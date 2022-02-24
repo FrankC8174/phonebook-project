@@ -8,11 +8,17 @@ def menu():
     print("what would you like to do (1-5)?")
 
 menu()    
-PB = {}
+d1 = {}
 while True:
     n=int(input("enter number [1-5]:-"))
-    if n ==1:
+    if n ==2:
         name=input("enter name:-")
-        pn=(input("enter phone number:-"))
+        phono=(input("enter phone number:-"))
+        d1[name]=phono
+    elif n==1:
+        name1=input("enter name to SEARCH for phone number in the phone book")
+        print("phone number of" ,name1, "is", d1[name])
+ 
+        break        
         
-        break
+        
