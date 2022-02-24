@@ -18,7 +18,7 @@ while True:
     elif n==1:
         name1=input("enter name to SEARCH for phone number in the phone book")
         print("phone number of" ,name1, "is", d1[name])
- 
-        break        
+   
+    break        
         
         
