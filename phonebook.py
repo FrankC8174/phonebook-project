@@ -1,6 +1,8 @@
 #Define Menu
 def menu():
-    print("-------Lil Black Book--------")
+    print("Welcome to my Contact Book")
+    print("My program commands are 1,2,3,4, or 5")
+    print("----What Would You like to do?----")
     print("[1] Look up an entry")
     print("[2] Set an entry")
     print("[3] delete an entry")
